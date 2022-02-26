@@ -1,0 +1,12 @@
+
+.Mainp{
+    height: 60vh;
+    display: flex;
+    
+}
+.head{
+    height: 20vh;
+}
+.foot{
+    height: 20vh;
+}
