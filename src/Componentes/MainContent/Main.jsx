@@ -3,8 +3,8 @@ import './Main.css'
 
 export default function Main() {
   return (
-    <div className='main'>
-        Contenido Principal
-    </div>
+    <span className='main'>
+        MAIN CONTENT
+    </span>
   )
 }

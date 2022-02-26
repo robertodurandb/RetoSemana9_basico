@@ -1,10 +1,9 @@
 import React from 'react';
-import './Footer.css';
 
 export default function Footer() {
   return (
-    <footer>
-      Soy el Footer
-    </footer>
+    <span>
+      FOOTER
+    </span>
   )
 }

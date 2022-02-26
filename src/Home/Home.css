@@ -1,12 +1,60 @@
-
+.document{
+    border: 1px solid black;
+}
 .Mainp{
-    height: 60vh;
-    display: flex;
-    
+    height: calc(60vh);
+    display: flex; 
+    border: 5px solid white;
 }
 .head{
     height: 20vh;
+    background-color: rgb(1, 82, 1);
+    border: 5px solid white;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 .foot{
+    border: 5px solid white;
     height: 20vh;
+    background-color: rgb(1, 82, 1);
+  
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.sidenav-der{
+    background-color: skyblue;
+    width: 20vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.sidenav-izq{
+    
+    border-right: 5px solid white;
+    background-color: purple;
+    width: 20vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.main{
+    background-color: purple;
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }

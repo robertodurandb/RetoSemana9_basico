@@ -3,8 +3,8 @@ import './Sidenav.css';
 
 export default function Sidenav() {
   return (
-    <div className='sidenav'>
-        Sidenav
-        </div>
+    <span className='sidenav'>
+        SIDENAV
+        </span>
   )
 }
